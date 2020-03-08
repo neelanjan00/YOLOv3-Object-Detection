@@ -28,7 +28,7 @@ def main():
     # specify the video input.
     # 0 means input from cam 0.
     # For video, just change the 0 to video path
-    cap = cv2.VideoCapture(2)
+    cap = cv2.VideoCapture(0)
     frame_size = (cap.get(1024),
                   cap.get(768))
     try:
